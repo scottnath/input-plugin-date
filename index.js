@@ -27,9 +27,6 @@ module.exports = {
       label: 'date',
       placeholder: 'date',
       type: 'date',
-      settings: {
-        empty: true,
-      },
     },
   },
   html: '<label for="{{date.id}}">{{date.label}}</label><input type="{{date.type}}" id="{{date.id}}" name="{{date.name}}" value="{{date.value}}" placeholder="{{date.placeholder}}" />',
